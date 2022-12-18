@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "9qjxnZtkh1MxkmhFtgea0bmZL6nlZuukcu49m3t/8lbMtSESIm1RalAKAiwfhJZAEjNyhuZpn1gO9aidODx2XQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Fryz\\source\\repos\\Screenshot2\\Screenshot2\\Screenshot2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Fryz\\.nuget\\packages\\nhotkey\\2.1.0\\nhotkey.2.1.0.nupkg.sha512",
+    "C:\\Users\\Fryz\\.nuget\\packages\\nhotkey.windowsforms\\2.1.0\\nhotkey.windowsforms.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

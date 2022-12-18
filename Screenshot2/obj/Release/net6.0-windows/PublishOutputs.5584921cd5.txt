@@ -1,0 +1,8 @@
+C:\Users\Fryz\source\repos\Screenshot2\Screenshot2\bin\Release\net6.0-windows\publish\Screenshot2.exe
+C:\Users\Fryz\source\repos\Screenshot2\Screenshot2\bin\Release\net6.0-windows\publish\Screenshot2.dll
+C:\Users\Fryz\source\repos\Screenshot2\Screenshot2\bin\Release\net6.0-windows\publish\Screenshot2.deps.json
+C:\Users\Fryz\source\repos\Screenshot2\Screenshot2\bin\Release\net6.0-windows\publish\Screenshot2.runtimeconfig.json
+C:\Users\Fryz\source\repos\Screenshot2\Screenshot2\bin\Release\net6.0-windows\publish\Screenshot2.dll.config
+C:\Users\Fryz\source\repos\Screenshot2\Screenshot2\bin\Release\net6.0-windows\publish\Screenshot2.pdb
+C:\Users\Fryz\source\repos\Screenshot2\Screenshot2\bin\Release\net6.0-windows\publish\NHotkey.dll
+C:\Users\Fryz\source\repos\Screenshot2\Screenshot2\bin\Release\net6.0-windows\publish\NHotkey.WindowsForms.dll

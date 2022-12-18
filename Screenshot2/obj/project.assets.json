@@ -1,0 +1,152 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "NHotkey/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/NHotkey.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/NHotkey.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "NHotkey.WindowsForms/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "NHotkey": "2.1.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/NHotkey.WindowsForms.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/NHotkey.WindowsForms.dll": {
+            "related": ".pdb"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "NHotkey/2.1.0": {
+      "sha512": "zr6ngoY5OujU8zhp8DGZF4I10HSrHjOuiXw9LdXaplXdOJPxwbYPvIDacGtsTCnLLSZDTF+lwjDpdr+bnntRdw==",
+      "type": "package",
+      "path": "nhotkey/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/NHotkey.dll",
+        "lib/net40/NHotkey.pdb",
+        "lib/net45/NHotkey.dll",
+        "lib/net45/NHotkey.pdb",
+        "lib/netcoreapp3.0/NHotkey.dll",
+        "lib/netcoreapp3.0/NHotkey.pdb",
+        "nhotkey.2.1.0.nupkg.sha512",
+        "nhotkey.nuspec"
+      ]
+    },
+    "NHotkey.WindowsForms/2.1.0": {
+      "sha512": "m15yFRtqIuXq625zGuIxWv45V7L/OLisbazsWyqaASzPCsOFPRoo/6yGpFq5MEdSgBOV3Y9kUIkswdulqZ8rVw==",
+      "type": "package",
+      "path": "nhotkey.windowsforms/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/NHotkey.WindowsForms.dll",
+        "lib/net40/NHotkey.WindowsForms.pdb",
+        "lib/net45/NHotkey.WindowsForms.dll",
+        "lib/net45/NHotkey.WindowsForms.pdb",
+        "lib/netcoreapp3.0/NHotkey.WindowsForms.dll",
+        "lib/netcoreapp3.0/NHotkey.WindowsForms.pdb",
+        "nhotkey.windowsforms.2.1.0.nupkg.sha512",
+        "nhotkey.windowsforms.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "NHotkey >= 2.1.0",
+      "NHotkey.WindowsForms >= 2.1.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Fryz\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Fryz\\source\\repos\\Screenshot2\\Screenshot2\\Screenshot2.csproj",
+      "projectName": "Screenshot2",
+      "projectPath": "C:\\Users\\Fryz\\source\\repos\\Screenshot2\\Screenshot2\\Screenshot2.csproj",
+      "packagesPath": "C:\\Users\\Fryz\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Fryz\\source\\repos\\Screenshot2\\Screenshot2\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Fryz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "NHotkey": {
+            "target": "Package",
+            "version": "[2.1.0, )"
+          },
+          "NHotkey.WindowsForms": {
+            "target": "Package",
+            "version": "[2.1.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

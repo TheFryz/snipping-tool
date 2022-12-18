@@ -1,0 +1,3 @@
+C:\Users\Fryz\source\repos\Screenshot2\Screenshot2\bin\Release\net6.0-windows\publish\win-x86\Screenshot2.pdb
+C:\Users\Fryz\source\repos\Screenshot2\Screenshot2\bin\Release\net6.0-windows\publish\win-x86\Screenshot2.dll.config
+C:\Users\Fryz\source\repos\Screenshot2\Screenshot2\bin\Release\net6.0-windows\publish\win-x86\Screenshot2.exe
